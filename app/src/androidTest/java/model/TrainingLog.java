@@ -41,4 +41,8 @@ class TrainingLog {
     public RpeScale getRpe() {
         return rpe;
     }
+
+    void setWeight(Double weight) {
+        this.weight = weight;
+    }
 }
